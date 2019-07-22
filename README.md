@@ -1,13 +1,15 @@
-# Project
+# Coin Combinations
 ### By Rochelle Roberts
 -----
 
 ## Description
-* Project template for C# console apps
-* Unit testing set up too
+* Coin Combinations is a C# console app that lets a user enter an amount of cents and shows the smallest number of quarters, dimes, nickels, and pennies needed to make that change.
+* Unit testing functions
+
 
 ## Technologies Used
 * C#
+* .NET
 * MSTest
 
 ## Installation
@@ -15,8 +17,10 @@
 * From the project's root directory, open console and type dotnet run
 
 ```sh
-$ git clone 
-$ cd  
+$ git clone https://github.com/rochellev/CoinCombinations.git
+$ cd  CoinCombinations
+$ cd Coin
+$ dotnet restore
 $ dotnet run
 ```
 
@@ -24,7 +28,9 @@ $ dotnet run
 
 | Behaviors       | Input          | Output      |
 | ---------------- |:------------:| :--------------:|
-
+| if user types 0, then return need 0 coins | 0 | 0 coins |
+| give user change | 25 | 1 quarter |
+| use as many quarters as possible | 80 | 3 quarters, 1 nickel |
 
 ## Project Directory
 1. Model Directory
