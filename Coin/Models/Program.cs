@@ -1,4 +1,4 @@
-using Sytem;
+
 
 class Program
 {
