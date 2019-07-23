@@ -33,8 +33,8 @@ namespace Coins.Test
     public void MinCoins_ResultofFour()
     {
       Coin myCoin = new Coin();
-      int secondResult = myCoin.MinCoins(100);
-      Assert.AreEqual(4, secondResult);
+      int secondResult = myCoin.MinCoins(39);
+      Assert.AreEqual(6, secondResult);
     }
   }
 }
